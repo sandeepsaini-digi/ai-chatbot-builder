@@ -1,0 +1,48 @@
+{
+  "name": "ai-chatbot-builder-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI Chatbot Builder — LangChain + RAG + OpenAI",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "worker": "ts-node src/workers/document-processor.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "langchain": "^0.2.9",
+    "@langchain/openai": "^0.2.1",
+    "@langchain/core": "^0.2.9",
+    "@langchain/community": "^0.2.18",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "openai": "^4.52.0",
+    "socket.io": "^4.7.5",
+    "bull": "^4.12.2",
+    "ioredis": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "cheerio": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.3.1",
+    "zod": "^3.23.8",
+    "dotenv": "^16.4.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.14.2",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.3"
+  }
+}
