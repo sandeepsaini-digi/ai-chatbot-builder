@@ -2,7 +2,6 @@
 
 A no-code platform to build, train, and deploy custom AI chatbots on any website. Train chatbots on your own documents (PDFs, URLs, text), customize the UI, and embed anywhere with a single script tag.
 
-![Chatbot Builder Preview](https://via.placeholder.com/1200x600/0f172a/10b981?text=AI+Chatbot+Builder)
 
 ## Features
 
