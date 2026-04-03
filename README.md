@@ -1,10 +1,10 @@
-# 🤖 AI Chatbot Builder — MERN + LangChain + OpenAI + RAG
+# AI Chatbot Builder — MERN + LangChain + OpenAI + RAG
 
 A no-code platform to build, train, and deploy custom AI chatbots on any website. Train chatbots on your own documents (PDFs, URLs, text), customize the UI, and embed anywhere with a single script tag.
 
 ![Chatbot Builder Preview](https://via.placeholder.com/1200x600/0f172a/10b981?text=AI+Chatbot+Builder)
 
-## ✨ Features
+## Features
 
 - **No-Code Bot Builder** — Create chatbots with a drag-and-drop interface, no coding needed
 - **Custom Knowledge Base** — Train on PDFs, websites, Notion docs, or plain text
@@ -16,7 +16,7 @@ A no-code platform to build, train, and deploy custom AI chatbots on any website
 - **White-labeling** — Custom branding, colors, and avatar per bot
 - **Conversation History** — Full searchable conversation logs with export
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -31,7 +31,7 @@ A no-code platform to build, train, and deploy custom AI chatbots on any website
 | Auth | JWT + Refresh Tokens |
 | Deployment | Railway / Render + Vercel |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── client/                      # React frontend
@@ -76,7 +76,7 @@ A no-code platform to build, train, and deploy custom AI chatbots on any website
     └── chatbot-widget.js        # <5KB minified bundle
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone
@@ -93,7 +93,7 @@ cp client/.env.example client/.env
 npm run dev
 ```
 
-## 🧠 How RAG Works
+## How RAG Works
 
 ```
 User Question
@@ -117,7 +117,7 @@ GPT-4o generates answer grounded in your data
 Stream response to user
 ```
 
-## 🌐 Embed on Any Website
+## Embed on Any Website
 
 After creating your bot, copy the embed code:
 
@@ -132,7 +132,7 @@ After creating your bot, copy the embed code:
 
 That's it. The chatbot appears as a floating bubble on your site.
 
-## 📊 Analytics
+## Analytics
 
 Track per bot:
 - Total conversations & messages
@@ -142,13 +142,13 @@ Track per bot:
 - Peak usage hours
 - Geographic distribution
 
-## 🔐 Security
+## Security
 
 - API keys are hashed server-side and never exposed to the client
 - Bot API requests validated by origin domain whitelist
 - Rate limiting per bot (configurable)
 - PII detection before storing conversation logs
 
-## 📄 License
+## License
 
 MIT License
